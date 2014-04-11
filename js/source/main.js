@@ -51,7 +51,6 @@
 
   function fact() {
     var values = getNums();
-    debugger;
     var answer = calcFact(values[0]);
     display(answer);
   }
