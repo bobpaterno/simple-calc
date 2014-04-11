@@ -58,6 +58,10 @@
 
   function calcFact(num) {
     var x = num;
+    if(num===0) {
+      return 1;
+    }
+    
     while(x>1) {
       num = num*(x-1);
       x--;
